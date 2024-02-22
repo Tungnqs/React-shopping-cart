@@ -1,0 +1,42 @@
+@media(max-width: 768px){
+    #side-bar-menu{
+        display: block !important;
+    }
+    #navbar-left{
+        display: none !important;
+    }
+}
+
+#shopping-cart-btn{
+    color: #467edc;
+}
+
+#navbar-left{
+    display: flex;
+    gap: 20px;
+}
+
+#navbar-left a{
+    text-decoration: none;
+}
+
+#side-bar-menu{
+    display: none;
+}
+
+#side-bar-menu-container a{
+    text-decoration: none;
+}
+
+#side-bar-menu-container{
+    width: 300px;
+}
+
+#navbar-menu-btn{
+    background-color: white;
+    border: none;
+}
+
+#navbar-menu-btn i {
+    color: #467edc;
+}
